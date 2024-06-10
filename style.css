@@ -1,0 +1,49 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.content-section {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+
+.section-title {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 5px;
+    position: relative;
+}
+
+
+.section-content {
+    padding: 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* Styles for tablet view */
+    .content-section {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .content-section {
+        width: 33.33%;
+        float: left;
+    }
+}
